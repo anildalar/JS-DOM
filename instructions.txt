@@ -1,0 +1,31 @@
+DOM
+JS Document Object Model
+
+JS Object
+1. JS Object  
+
+{
+	1. Properties
+	2.Method/Function	
+}
+
+Syntax
+object.member
+
+1. object.property
+2. object.method();
+
+document.body
+
+document.getElementById();
+
+
+
+
+
+
+2. Class Object
+
+
+https://www.w3schools.com/jsref/prop_element_classlist.asp
+https://www.w3schools.com/JSREF/dom_obj_document.asp

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+
+        <script>
+                //Lets create a i tag
+                //2. Variable Initialization
+                i = document.createElement('i');
+                i.setAttribute('class','fas');
+                i.classList.add('fa-home');
+                console.log(i);
+
+                document.body.appendChild(i);
+
+                //lets create a script tag
+                let l = document.createElement('link');
+                l.setAttribute('rel','stylesheet');
+                l.setAttribute('href','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+                console.log(l);
+
+                document.head.appendChild(l);
+
+                //document.head.appendChild();
+
+
+
+
+                //JS Hoisting
+                //You can declerate the variable after the initialization 
+
+                //1 Variable Decleration
+                var i;
+
+        </script>
+    </body>
+</html>
